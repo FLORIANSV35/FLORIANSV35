@@ -4,8 +4,8 @@
 
 Forks that I have not modified are not listed. For forks, only the branches containing my own commits are shown.
 
-- [🎛️ AUDIO](#️-audio)
-- [🚁 FPV](#-fpv)
+- [🎛️ AUDIO](#️-audio) · [standalone page](README-AUDIO.md)
+- [🚁 FPV](#-fpv) · [standalone page](README-FPV.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # 📚 My GitHub Projects
 
-**Legend:** 🔧 personal project · 🍴 fork (modified or adapted) · 🔒 private project (published website only)
+**Legend:** 🔧 personal project · 🍴 fork (modified or adapted)
 
 Forks that I have not modified are not listed. For forks, only the branches containing my own commits are shown.
 
@@ -18,8 +18,6 @@ Forks that I have not modified are not listed. For forks, only the branches cont
 | <img src="logos/Stream-deck-Advance-Audio-Player.png" width="48" alt="Stream Deck Advance Audio Player"> | 🔧 [Stream-deck-Advance-Audio-Player](https://github.com/FLORIANSV35/Stream-deck-Advance-Audio-Player) | Advanced audio player for Stream Deck (macOS + Windows beta): synchronized multi-track playback, multi-output routing, fades, waveform trim points, live volume.<br>**Latest release:** [`v26.9.104`](https://github.com/FLORIANSV35/Stream-deck-Advance-Audio-Player/releases/tag/v26.9.104) | TypeScript |
 | <img src="logos/Von-De-larsen.png" width="48" alt="Von De Larsen"> | 🔧 [Von-De-larsen](https://github.com/FLORIANSV35/Von-De-larsen) | Vocal plugin (AU + VST3 + standalone app with 1 to 8 channels, macOS Apple Silicon): anti-feedback and background noise reduction for live sound vocals. 5.3 ms latency at 48 kHz.<br>**Latest release:** [`v0.2.4`](https://github.com/FLORIANSV35/Von-De-larsen/releases/tag/v0.2.4) | C++ |
 | <img src="logos/3D-to-AI.png" width="48" alt="3D-to-AI"> | 🔧 [3D-to-AI](https://github.com/FLORIANSV35/3D-to-AI) | OBJ → DAE (Collada) converter for Adamson ArrayIntelligence: 3D preview, placement, cropping, macOS `.app` build.<br>**Latest release:** [`V26.10.07`](https://github.com/FLORIANSV35/3D-to-AI/releases/tag/V26.10.07) | Python |
-| <img src="logos/CCA.png" width="48" alt="CCA"> | 🔒 CCA (CableCalc Adamson) | Web app for cabling prep of audio/stage gear (Adamson speakers): automatic cable calculation per position, power and signal distribution on racks, prep sheets, PDF/Locasyst export, collaborative project tracking.<br>**Website:** [flosv.fr/cca](https://www.flosv.fr/cca) | PHP / JS |
-| <img src="logos/ASR.png" width="48" alt="ASR"> | 🔒 ASR (Array Shoot Reader) | Web app that reads array shoots and draws true-scale cluster and flat sub-array diagrams (box dimensions, spacing, angles), rigging plot, lightweight PDF export.<br>**Website:** [flosv.fr/asr](https://www.flosv.fr/asr) | HTML / JS |
 
 ---
 
@@ -52,4 +50,4 @@ Forks that I have not modified are not listed. For forks, only the branches cont
 
 ---
 
-<sub>14 public repos (+ 1 unmodified fork hidden) · 2 private projects with published sites · updated 2026-11-16 · logos taken from the repos themselves (stored in [logos/](logos/)), emoji when a repo has no logo</sub>
+<sub>14 public repos (+ 1 unmodified fork hidden) · updated 2026-11-16 · logos taken from the repos themselves (stored in [logos/](logos/)), emoji when a repo has no logo</sub>

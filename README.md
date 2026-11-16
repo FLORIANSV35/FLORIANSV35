@@ -50,4 +50,15 @@ Forks that I have not modified are not listed. For forks, only the branches cont
 
 ---
 
+## 🔒 Private projects (published sites)
+
+Source code is private; the result is live online.
+
+| | Project | Description | Website |
+|:---:|---|---|---|
+| <img src="logos/CCA.png" width="48" alt="CCA"> | CCA (CableCalc Adamson) | Web app for cabling prep of audio/stage gear (Adamson speakers): automatic cable calculation per position, power and signal distribution on racks, prep sheets, PDF/Locasyst export, collaborative project tracking. PHP + vanilla JS. | [flosv.fr/cca](https://www.flosv.fr/cca) |
+| <img src="logos/ASR.png" width="48" alt="ASR"> | ASR (Array Shoot Reader) | Web app that reads array shoots and draws true-scale cluster and flat sub-array diagrams (box dimensions, spacing, angles), rigging plot, lightweight PDF export. | [flosv.fr/asr](https://www.flosv.fr/asr) |
+
+---
+
 <sub>14 public repos (+ 1 unmodified fork hidden) · updated 2026-11-16 · logos taken from the repos themselves (stored in [logos/](logos/)), emoji when a repo has no logo</sub>

@@ -1,7 +1,5 @@
 # 📚 My GitHub Projects
 
-Index of my public repositories ([@FLORIANSV35](https://github.com/FLORIANSV35)): a short description and a link to each repo.
-
 **Legend:** 🔧 personal project · 🍴 fork (modified or adapted)
 
 Forks that I have not modified are not listed. For forks, only the branches containing my own commits are shown.

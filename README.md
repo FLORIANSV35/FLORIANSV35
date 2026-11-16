@@ -1,54 +1,54 @@
-# 📚 Mes projets GitHub
+# 📚 My GitHub Projects
 
-Index de mes dépôts publics ([@FLORIANSV35](https://github.com/FLORIANSV35)) : une courte explication et le lien vers chaque repo.
+Index of my public repositories ([@FLORIANSV35](https://github.com/FLORIANSV35)): a short description and a link to each repo.
 
-**Légende :** 🔧 projet personnel · 🍴 fork (modifié ou adapté)
+**Legend:** 🔧 personal project · 🍴 fork (modified or adapted)
 
-- [🎛️ SON](#️-son)
+- [🎛️ AUDIO](#️-audio)
 - [🚁 FPV](#-fpv)
 
 ---
 
-## 🎛️ SON
+## 🎛️ AUDIO
 
-| | Repo | Description | Langage |
+| | Repo | Description | Language |
 |:---:|---|---|---|
-| 🎚️ | 🔧 [GSR24M-driver](https://github.com/FLORIANSV35/GSR24M-driver) | Driver macOS (app + daemon + plug-in CoreAudio) pour la carte FireWire Allen & Heath GS-R24, Apple silicon, sans kext. | Swift |
-| <img src="logos/ASFireWire.svg" width="48" alt="ASFireWire"> | 🍴 [ASFireWire](https://github.com/FLORIANSV35/ASFireWire) | Contrôleur hôte FireWire OHCI en DriverKit pour macOS. ([asfw.net](https://www.asfw.net)) | C++ |
-| <img src="logos/SimplePlug.png" width="48" alt="SimplePlug"> | 🔧 [SimplePlug](https://github.com/FLORIANSV35/SimplePlug) | Host minimal pour un seul plugin AU en 2 entrées / 2 sorties (macOS). Version VST3 pour Windows. | Swift |
-| <img src="logos/Stream-deck-Advance-Audio-Player.png" width="48" alt="Stream Deck Advance Audio Player"> | 🔧 [Stream-deck-Advance-Audio-Player](https://github.com/FLORIANSV35/Stream-deck-Advance-Audio-Player) | Lecteur audio avancé pour Stream Deck (macOS + Windows bêta) : lecture multi-pistes synchronisée, routage multi-sorties, fades, points de trim sur waveform, volume en direct. | TypeScript |
-| <img src="logos/Von-De-larsen.png" width="48" alt="Von De Larsen"> | 🔧 [Von-De-larsen](https://github.com/FLORIANSV35/Von-De-larsen) | Plugin vocal (AU + VST3 + app autonome 1 à 8 canaux, macOS Apple Silicon) : anti-larsen et réduction de bruit de fond pour la voix en sono live. Latence 5,3 ms à 48 kHz. | C++ |
-| <img src="logos/3D-to-AI.png" width="48" alt="3D-to-AI"> | 🔧 [3D-to-AI](https://github.com/FLORIANSV35/3D-to-AI) | Convertisseur OBJ → DAE (Collada) pour Adamson ArrayIntelligence : aperçu 3D, placement, recadrage, build `.app` macOS. | Python |
+| 🎚️ | 🔧 [GSR24M-driver](https://github.com/FLORIANSV35/GSR24M-driver) | macOS driver (app + daemon + CoreAudio plug-in) for the Allen & Heath GS-R24 FireWire card, Apple silicon, no kext. | Swift |
+| <img src="logos/ASFireWire.svg" width="48" alt="ASFireWire"> | 🍴 [ASFireWire](https://github.com/FLORIANSV35/ASFireWire) | DriverKit OHCI FireWire host controller for macOS. ([asfw.net](https://www.asfw.net)) | C++ |
+| <img src="logos/SimplePlug.png" width="48" alt="SimplePlug"> | 🔧 [SimplePlug](https://github.com/FLORIANSV35/SimplePlug) | Minimal host for a single AU plugin with 2 in / 2 out (macOS). VST3 version for Windows. | Swift |
+| <img src="logos/Stream-deck-Advance-Audio-Player.png" width="48" alt="Stream Deck Advance Audio Player"> | 🔧 [Stream-deck-Advance-Audio-Player](https://github.com/FLORIANSV35/Stream-deck-Advance-Audio-Player) | Advanced audio player for Stream Deck (macOS + Windows beta): synchronized multi-track playback, multi-output routing, fades, waveform trim points, live volume. | TypeScript |
+| <img src="logos/Von-De-larsen.png" width="48" alt="Von De Larsen"> | 🔧 [Von-De-larsen](https://github.com/FLORIANSV35/Von-De-larsen) | Vocal plugin (AU + VST3 + standalone app with 1 to 8 channels, macOS Apple Silicon): anti-feedback and background noise reduction for live sound vocals. 5.3 ms latency at 48 kHz. | C++ |
+| <img src="logos/3D-to-AI.png" width="48" alt="3D-to-AI"> | 🔧 [3D-to-AI](https://github.com/FLORIANSV35/3D-to-AI) | OBJ → DAE (Collada) converter for Adamson ArrayIntelligence: 3D preview, placement, cropping, macOS `.app` build. | Python |
 
 ---
 
 ## 🚁 FPV
 
-### Analyse spectre & chronométrage (RotorHazard)
+### Spectrum analysis & race timing (RotorHazard)
 
-| | Repo | Description | Langage |
+| | Repo | Description | Language |
 |:---:|---|---|---|
-| 📶 | 🔧 [rotorhazard-rssi-scanner](https://github.com/FLORIANSV35/rotorhazard-rssi-scanner) | Plugin RotorHazard : utilise un node comme analyseur de spectre 5,8 GHz temps réel (spectre, carte des bandes, focus + IM3/IM5, captures). | HTML |
-| 🛰️ | 🔧 [Drone-Scan-Tool](https://github.com/FLORIANSV35/Drone-Scan-Tool) | Analyseur de spectre 5,8 GHz et détecteur de balises drone (Remote ID) sur ESP32-S3 + RX5808, avec web app (Web Serial) et mode Timer Backpack RotorHazard. | HTML / Arduino |
-| 🏁 | 🍴 [vrxc_elrs](https://github.com/FLORIANSV35/vrxc_elrs) | Intégration du Backpack ExpressLRS dans RotorHazard. | Python |
-| 🎒 | 🍴 [Backpack](https://github.com/FLORIANSV35/Backpack) | Firmware pour les backpacks compatibles ExpressLRS. | JavaScript |
+| 📶 | 🔧 [rotorhazard-rssi-scanner](https://github.com/FLORIANSV35/rotorhazard-rssi-scanner) | RotorHazard plugin: use a node as a real-time 5.8 GHz spectrum analyzer (spectrum, band map, focus + IM3/IM5, captures). | HTML |
+| 🛰️ | 🔧 [Drone-Scan-Tool](https://github.com/FLORIANSV35/Drone-Scan-Tool) | 5.8 GHz spectrum analyzer and drone beacon (Remote ID) detector on ESP32-S3 + RX5808, with a web app (Web Serial) and a RotorHazard Timer Backpack mode. | HTML / Arduino |
+| 🏁 | 🍴 [vrxc_elrs](https://github.com/FLORIANSV35/vrxc_elrs) | Integrate the ExpressLRS Backpack into RotorHazard. | Python |
+| 🎒 | 🍴 [Backpack](https://github.com/FLORIANSV35/Backpack) | Firmware for ExpressLRS compatible backpacks. | JavaScript |
 
-### Balises DGAC & contrôle caméra (ESP32-C3)
+### DGAC beacons & camera control (ESP32-C3)
 
-| | Repo | Description | Langage |
+| | Repo | Description | Language |
 |:---:|---|---|---|
-| 📍 | 🔧 [balise-dgac](https://github.com/FLORIANSV35/balise-dgac) | Balise DGAC (Remote ID) en WiFi pour ESP32-C3, alimentée par le GPS d'un FC Betaflight (MSP). | C++ |
-| 🎥 | 🔧 [MSP-control-dji-action2](https://github.com/FLORIANSV35/MSP-control-dji-action2) | Contrôle de la DJI Action 2 en BLE (REC à l'armement) + OSD via Backpack ELRS, ESP32-C3. | C++ |
-| 📍🎥 | 🔧 [balise-dgac-dji-action2](https://github.com/FLORIANSV35/balise-dgac-dji-action2) | Combine les deux : balise DGAC + contrôle DJI Action 2 (BLE) + OSD Backpack ELRS, fonctions activables. | C++ |
+| 📍 | 🔧 [balise-dgac](https://github.com/FLORIANSV35/balise-dgac) | DGAC (Remote ID) WiFi beacon for ESP32-C3, powered by the GPS of a Betaflight FC (MSP). | C++ |
+| 🎥 | 🔧 [MSP-control-dji-action2](https://github.com/FLORIANSV35/MSP-control-dji-action2) | Control a DJI Action 2 over BLE (REC on arm) + OSD via ELRS Backpack, ESP32-C3. | C++ |
+| 📍🎥 | 🔧 [balise-dgac-dji-action2](https://github.com/FLORIANSV35/balise-dgac-dji-action2) | Both combined: DGAC beacon + DJI Action 2 control (BLE) + ELRS Backpack OSD, with switchable features. | C++ |
 
 ### HDZero
 
-| | Repo | Description | Langage |
+| | Repo | Description | Language |
 |:---:|---|---|---|
-| <img src="logos/graphn-hdzero-goggle-fw.png" width="48" alt="HDZero Goggles"> | 🍴 [graphn-hdzero-goggle-fw](https://github.com/FLORIANSV35/graphn-hdzero-goggle-fw) | Build communautaire non officiel du firmware des lunettes HDZero (Goggle, Goggle2, BoxPro), versionné `graphn`. Flash à vos risques. | C |
-| <img src="logos/graphn-hdzero-vtx.png" width="64" alt="HDZero"> | 🍴 [graphn-hdzero-vtx](https://github.com/FLORIANSV35/graphn-hdzero-vtx) | Fork du firmware VTX HDZero (MCU 8051 du baseband DM5680). | C |
-| <img src="logos/hdzero-programmer-mac.png" width="48" alt="HDZero Programmer"> | 🍴 [hdzero-programmer-mac](https://github.com/FLORIANSV35/hdzero-programmer-mac) | Port macOS (Apple Silicon) du programmateur HDZero : onglet VTX via driver libusb CH341. Non validé sur matériel réel. | Python |
+| <img src="logos/graphn-hdzero-goggle-fw.png" width="48" alt="HDZero Goggles"> | 🍴 [graphn-hdzero-goggle-fw](https://github.com/FLORIANSV35/graphn-hdzero-goggle-fw) | Unofficial community build of the HDZero goggles firmware (Goggle, Goggle2, BoxPro), versioned `graphn`. Flash at your own risk. | C |
+| <img src="logos/graphn-hdzero-vtx.png" width="64" alt="HDZero"> | 🍴 [graphn-hdzero-vtx](https://github.com/FLORIANSV35/graphn-hdzero-vtx) | Fork of the HDZero VTX firmware (8051 MCU of the DM5680 baseband chip). | C |
+| <img src="logos/hdzero-programmer-mac.png" width="48" alt="HDZero Programmer"> | 🍴 [hdzero-programmer-mac](https://github.com/FLORIANSV35/hdzero-programmer-mac) | macOS (Apple Silicon) port of the HDZero programmer: VTX tab via a libusb CH341 driver. Not yet validated on real hardware. | Python |
 
 ---
 
-<sub>15 dépôts publics · mis à jour le 2026-11-16 · logos tirés des repos eux-mêmes (stockés dans [logos/](logos/)), emoji quand le repo n'a pas de logo</sub>
+<sub>15 public repos · updated 2026-11-16 · logos taken from the repos themselves (stored in [logos/](logos/)), emoji when a repo has no logo</sub>

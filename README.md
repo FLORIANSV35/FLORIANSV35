@@ -2,7 +2,9 @@
 
 Index of my public repositories ([@FLORIANSV35](https://github.com/FLORIANSV35)): a short description and a link to each repo.
 
-**Legend:** 🔧 personal project · 🍴 fork (modified or adapted)
+**Legend:** 🔧 personal project · 🍴 fork (modified or adapted) · ✏️ branch with my own commits (vs. upstream)
+
+Forks that I have not modified are not listed.
 
 - [🎛️ AUDIO](#️-audio)
 - [🚁 FPV](#-fpv)
@@ -14,7 +16,6 @@ Index of my public repositories ([@FLORIANSV35](https://github.com/FLORIANSV35))
 | | Repo | Description | Language |
 |:---:|---|---|---|
 | 🎚️ | 🔧 [GSR24M-driver](https://github.com/FLORIANSV35/GSR24M-driver) | macOS driver (app + daemon + CoreAudio plug-in) for the Allen & Heath GS-R24 FireWire card, Apple silicon, no kext. | Swift |
-| <img src="logos/ASFireWire.svg" width="48" alt="ASFireWire"> | 🍴 [ASFireWire](https://github.com/FLORIANSV35/ASFireWire) | DriverKit OHCI FireWire host controller for macOS. ([asfw.net](https://www.asfw.net)) | C++ |
 | <img src="logos/SimplePlug.png" width="48" alt="SimplePlug"> | 🔧 [SimplePlug](https://github.com/FLORIANSV35/SimplePlug) | Minimal host for a single AU plugin with 2 in / 2 out (macOS). VST3 version for Windows. | Swift |
 | <img src="logos/Stream-deck-Advance-Audio-Player.png" width="48" alt="Stream Deck Advance Audio Player"> | 🔧 [Stream-deck-Advance-Audio-Player](https://github.com/FLORIANSV35/Stream-deck-Advance-Audio-Player) | Advanced audio player for Stream Deck (macOS + Windows beta): synchronized multi-track playback, multi-output routing, fades, waveform trim points, live volume. | TypeScript |
 | <img src="logos/Von-De-larsen.png" width="48" alt="Von De Larsen"> | 🔧 [Von-De-larsen](https://github.com/FLORIANSV35/Von-De-larsen) | Vocal plugin (AU + VST3 + standalone app with 1 to 8 channels, macOS Apple Silicon): anti-feedback and background noise reduction for live sound vocals. 5.3 ms latency at 48 kHz. | C++ |
@@ -30,8 +31,8 @@ Index of my public repositories ([@FLORIANSV35](https://github.com/FLORIANSV35))
 |:---:|---|---|---|
 | 📶 | 🔧 [rotorhazard-rssi-scanner](https://github.com/FLORIANSV35/rotorhazard-rssi-scanner) | RotorHazard plugin: use a node as a real-time 5.8 GHz spectrum analyzer (spectrum, band map, focus + IM3/IM5, captures). | HTML |
 | 🛰️ | 🔧 [Drone-Scan-Tool](https://github.com/FLORIANSV35/Drone-Scan-Tool) | 5.8 GHz spectrum analyzer and drone beacon (Remote ID) detector on ESP32-S3 + RX5808, with a web app (Web Serial) and a RotorHazard Timer Backpack mode. | HTML / Arduino |
-| 🏁 | 🍴 [vrxc_elrs](https://github.com/FLORIANSV35/vrxc_elrs) | Integrate the ExpressLRS Backpack into RotorHazard. | Python |
-| 🎒 | 🍴 [Backpack](https://github.com/FLORIANSV35/Backpack) | Firmware for ExpressLRS compatible backpacks. | JavaScript |
+| 🏁 | 🍴 [vrxc_elrs](https://github.com/FLORIANSV35/vrxc_elrs) | Integrate the ExpressLRS Backpack into RotorHazard.<br>**Branches:** [`master`](https://github.com/FLORIANSV35/vrxc_elrs/tree/master) · [`pr/video-channels`](https://github.com/FLORIANSV35/vrxc_elrs/tree/pr/video-channels)✏️ · [`pr/web-connection`](https://github.com/FLORIANSV35/vrxc_elrs/tree/pr/web-connection)✏️ · [`web-bridge`](https://github.com/FLORIANSV35/vrxc_elrs/tree/web-bridge)✏️ | Python |
+| 🎒 | 🍴 [Backpack](https://github.com/FLORIANSV35/Backpack) | Firmware for ExpressLRS compatible backpacks.<br>**Branches:** [`master`](https://github.com/FLORIANSV35/Backpack/tree/master) · [`graphn-hdz-bkpk`](https://github.com/FLORIANSV35/Backpack/tree/graphn-hdz-bkpk)✏️ · [`graphn-rapidf-bkpk`](https://github.com/FLORIANSV35/Backpack/tree/graphn-rapidf-bkpk)✏️ · [`timer-msp-set-vtx-config`](https://github.com/FLORIANSV35/Backpack/tree/timer-msp-set-vtx-config)✏️ | JavaScript |
 
 ### DGAC beacons & camera control (ESP32-C3)
 
@@ -45,10 +46,10 @@ Index of my public repositories ([@FLORIANSV35](https://github.com/FLORIANSV35))
 
 | | Repo | Description | Language |
 |:---:|---|---|---|
-| <img src="logos/graphn-hdzero-goggle-fw.png" width="48" alt="HDZero Goggles"> | 🍴 [graphn-hdzero-goggle-fw](https://github.com/FLORIANSV35/graphn-hdzero-goggle-fw) | Unofficial community build of the HDZero goggles firmware (Goggle, Goggle2, BoxPro), versioned `graphn`. Flash at your own risk. | C |
-| <img src="logos/graphn-hdzero-vtx.png" width="64" alt="HDZero"> | 🍴 [graphn-hdzero-vtx](https://github.com/FLORIANSV35/graphn-hdzero-vtx) | Fork of the HDZero VTX firmware (8051 MCU of the DM5680 baseband chip). | C |
-| <img src="logos/hdzero-programmer-mac.png" width="48" alt="HDZero Programmer"> | 🍴 [hdzero-programmer-mac](https://github.com/FLORIANSV35/hdzero-programmer-mac) | macOS (Apple Silicon) port of the HDZero programmer: VTX tab via a libusb CH341 driver. Not yet validated on real hardware. | Python |
+| <img src="logos/graphn-hdzero-goggle-fw.png" width="48" alt="HDZero Goggles"> | 🍴 [graphn-hdzero-goggle-fw](https://github.com/FLORIANSV35/graphn-hdzero-goggle-fw) | Unofficial community build of the HDZero goggles firmware (Goggle, Goggle2, BoxPro), versioned `graphn`. Flash at your own risk.<br>**Branches:** [`main`](https://github.com/FLORIANSV35/graphn-hdzero-goggle-fw/tree/main)✏️ · [`claude/eager-knuth-4789he`](https://github.com/FLORIANSV35/graphn-hdzero-goggle-fw/tree/claude/eager-knuth-4789he)✏️ | C |
+| <img src="logos/graphn-hdzero-vtx.png" width="64" alt="HDZero"> | 🍴 [graphn-hdzero-vtx](https://github.com/FLORIANSV35/graphn-hdzero-vtx) | Fork of the HDZero VTX firmware (8051 MCU of the DM5680 baseband chip).<br>**Branches:** [`main`](https://github.com/FLORIANSV35/graphn-hdzero-vtx/tree/main)✏️ · [`modify-analog-hdzero-adapter-camera-index`](https://github.com/FLORIANSV35/graphn-hdzero-vtx/tree/modify-analog-hdzero-adapter-camera-index)✏️ · [`ultra-test`](https://github.com/FLORIANSV35/graphn-hdzero-vtx/tree/ultra-test)✏️ · [`disable-ardupulot-msp-vtx-set`](https://github.com/FLORIANSV35/graphn-hdzero-vtx/tree/disable-ardupulot-msp-vtx-set) · [`fix-fc-set-vtx-lowband`](https://github.com/FLORIANSV35/graphn-hdzero-vtx/tree/fix-fc-set-vtx-lowband) · [`fix-low-power-disarmed`](https://github.com/FLORIANSV35/graphn-hdzero-vtx/tree/fix-low-power-disarmed) · [`fix-setting-when-exit-0mw`](https://github.com/FLORIANSV35/graphn-hdzero-vtx/tree/fix-setting-when-exit-0mw) · [`fix-video-detect`](https://github.com/FLORIANSV35/graphn-hdzero-vtx/tree/fix-video-detect) · [`support-HDZGCS`](https://github.com/FLORIANSV35/graphn-hdzero-vtx/tree/support-HDZGCS) | C |
+| <img src="logos/hdzero-programmer-mac.png" width="48" alt="HDZero Programmer"> | 🍴 [hdzero-programmer-mac](https://github.com/FLORIANSV35/hdzero-programmer-mac) | macOS (Apple Silicon) port of the HDZero programmer: VTX tab via a libusb CH341 driver. Not yet validated on real hardware.<br>**Branches:** [`main`](https://github.com/FLORIANSV35/hdzero-programmer-mac/tree/main)✏️ · [`feat-v3`](https://github.com/FLORIANSV35/hdzero-programmer-mac/tree/feat-v3) · [`support-hdzero-radio`](https://github.com/FLORIANSV35/hdzero-programmer-mac/tree/support-hdzero-radio) · [`v1.0.2`](https://github.com/FLORIANSV35/hdzero-programmer-mac/tree/v1.0.2) | Python |
 
 ---
 
-<sub>15 public repos · updated 2026-11-16 · logos taken from the repos themselves (stored in [logos/](logos/)), emoji when a repo has no logo</sub>
+<sub>14 public repos (+ 1 unmodified fork hidden) · updated 2026-11-16 · logos taken from the repos themselves (stored in [logos/](logos/)), emoji when a repo has no logo</sub>
